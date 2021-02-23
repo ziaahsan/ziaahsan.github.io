@@ -1,0 +1,116 @@
+@import "fonts.css"; 
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'lgc', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+button {
+  font-family: 'lgcb', sans-serif;
+}
+
+/*Font*/
+.source-code-font {
+	font-family: 'Source Code Pro', monospace;  
+}
+.blueprint-font {
+	font-family: blueprint, monospace;
+}
+.blueprint-font-style {
+	text-shadow: 6px 6px #ddd;
+	color: #222;
+}
+/*UIKit*/
+.uk-tooltip {
+	background-color: #f8fafb;
+	color: #000;
+	font-weight: 500;
+}
+/*Hover*/
+.hvr-bounce-to-right:before {
+	color: #fff!important;
+	background: #ff5891!important;
+	clip-path: polygon(
+		0 0,
+		90% 0,
+		110% 100%,
+		0 100%
+	);
+}
+.hvr-bounce-to-right:hover,
+.hvr-bounce-to-right:focus {
+	color: #fff!important;
+}
+/*Div Cuts*/
+.cut-01 {
+	background: #efefef;
+	clip-path: polygon(
+		0% 0%,
+		100% 0%,
+		100% 100%,
+		0 90%
+	);
+}
+.cut-02 {
+	background: #efefef;
+	clip-path: polygon(
+		0 0,
+		100% 1%,
+		100% 100%,
+		0 100%
+	);
+}
+.cut-03 {
+	background: #efefef;
+	clip-path: polygon(
+		2% 0,
+		100% 2%,
+		98% 100%,
+		0 98%
+	);
+}
+
+/*@s*/
+@media only screen and (min-width: 640px) {
+	.cut-02 {
+		background: #efefef;
+		clip-path: polygon(
+			0 0,
+			100% 2%,
+			100% 100%,
+			0 100%
+		);
+	}
+}
+
+/*@m*/
+@media only screen and (min-width: 960px) {
+	.cut-02 {
+		background: #efefef;
+		clip-path: polygon(
+			0 0,
+			100% 5%,
+			100% 100%,
+			0 100%
+		);
+	}
+}
+
+/*@l*/
+@media only screen and (min-width: 1200px) {
+	.cut-02 {
+		background: #efefef;
+		clip-path: polygon(
+			0 0,
+			100% 10%,
+			100% 100%,
+			0 100%
+		);
+	}
+}

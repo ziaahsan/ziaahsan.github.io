@@ -1,0 +1,52 @@
+@import "fonts.css"; 
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, 
+h1, h2, h3, h4, h5, h6,
+p {
+  font-family: 'slkscr', sans-serif;
+}
+
+/*UIKit*/
+.uk-tooltip {
+	background-color: #f8fafb;
+	color: #000;
+	font-weight: 500;
+}
+/*Hover*/
+.hvr-bounce-to-right:before {
+	background: #222!important;
+	clip-path: polygon(
+		0 0,
+		95% 0,
+		95% 100%,
+		0 100%
+	);
+}
+.hvr-bounce-to-right:hover {
+	color: #cdf035!important;
+}
+/*Div Cuts*/
+.cut01 {
+	background: #efefef;
+	clip-path: polygon(
+		0 0,
+		100% 0,
+		100% 100%,
+		0 80%
+	);
+}
+.cut02 {
+	background: #efefef;
+	clip-path: polygon(
+		0 15%,
+		100% 0,
+		100% 85%,
+		0 100%
+	);
+}
